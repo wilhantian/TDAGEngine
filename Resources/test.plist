@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animations</key>
+	<dict>
+		<key>idle</key>
+		<dict>
+			<key>filename</key>
+			<string>anim%02d.png</string>
+			<key>size</key>
+			<string>2</string>
+			<key>delay</key>
+			<string>1</string>
+		</dict>
+		<key>run</key>
+		<dict>
+			<key>filename</key>
+			<string>anim%02d.png</string>
+			<key>size</key>
+			<string>2</string>
+			<key>delay</key>
+			<string>0.21</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
