@@ -10,12 +10,17 @@
 
 USING_NS_CC;
 
-cocos2d::Vec2 directionToVec2(Direction dir)
+cocos2d::Vec2 dirToVec2(int dir)
 {
-    if(dir == Direction::Up) return cocos2d::Vec2(0.0f, 1.0f);
-    if(dir == Direction::Right) return cocos2d::Vec2(1.0f, 0.0f);
-    if(dir == Direction::Down) return cocos2d::Vec2(0.0f, -1.0f);
-    if(dir == Direction::Left) return cocos2d::Vec2(-1.0f, 0.0f);
+    if(dir == kDirU) return cocos2d::Vec2(0.0f, 1.0f);
+    if(dir == kDirR) return cocos2d::Vec2(1.0f, 0.0f);
+    if(dir == kDirD) return cocos2d::Vec2(0.0f, -1.0f);
+    if(dir == kDirL) return cocos2d::Vec2(-1.0f, 0.0f);
+    if(dir == kDirRU) return cocos2d::Vec2(1.0f, 1.0f);
+    if(dir == kDirRD) return cocos2d::Vec2(1.0f, -1.0f);
+    if(dir == kDirLD) return cocos2d::Vec2(-1.0f, -1.0f);
+    if(dir == kDirLU) return cocos2d::Vec2(-1.0f, 1.0f);
+    
     return cocos2d::Vec2::ZERO;
 }
 

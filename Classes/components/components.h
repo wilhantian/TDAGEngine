@@ -11,7 +11,7 @@
 
 #include "cocos2d.h"
 #include "entityx/entityx.h"
-#include "Box2d/Box2d.h"
+#include "Box2D/Box2D.h"
 
 #include "constants.h"
 #include "Profile.h"
@@ -64,10 +64,10 @@ struct PositionComponent
 
 struct MoveComponent
 {
-    MoveComponent(Direction dir = Direction::Down, float speed = 1.0f):dir(dir),speed(speed),velocity(0.0f, 0.0f)
+    MoveComponent(int dir = kDirD, float speed = 50.0f):dir(dir),speed(speed),velocity(0.0f, 0.0f)
     {}
     
-    Direction dir;
+    int dir;
     float speed;
     
     cocos2d::Vec2 velocity;
@@ -81,6 +81,24 @@ struct PhysicsComponent
     b2Body* body;
     
     entityx::Entity self;//body中的UserData
+};
+
+struct InputComponent
+{
+    InputComponent(int inputIndex = -1):inputIndex(inputIndex)
+    {}
+    
+    int inputIndex;
+};
+
+struct MeleeComponent
+{
+    MeleeComponent(float attactBoxV = 10.0f, float attactBoxH = 20.0f, float duration = 1.0f):duration(duration),delay(0.0f),attactBoxV(attactBoxV),attackBoxH(attackBoxH)
+    {}
+    
+    float delay;//运行了多久
+    float duration;//持续时间
+    float attactBoxV, attackBoxH;
 };
 
 #endif /* components_h */

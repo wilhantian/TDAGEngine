@@ -13,6 +13,7 @@
 #include "Box2D/Box2D.h"
 #include "entityx/entityx.h"
 
+#include "Input.h"
 #include "components/components.h"
 #include "systems/RenderSystem.h"
 #include "systems/MoveSystem.h"

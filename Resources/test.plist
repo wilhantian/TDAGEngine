@@ -7,20 +7,56 @@
 		<key>idle</key>
 		<dict>
 			<key>filename</key>
-			<string>anim%02d.png</string>
+			<string>images/idle%02d.png</string>
 			<key>size</key>
-			<string>2</string>
+			<string>4</string>
 			<key>delay</key>
-			<string>1</string>
+			<string>0.2</string>
+		</dict>
+		<key>idleDown</key>
+		<dict>
+			<key>filename</key>
+			<string>images/idleDown%02d.png</string>
+			<key>size</key>
+			<string>4</string>
+			<key>delay</key>
+			<string>0.2</string>
+		</dict>
+		<key>idleUp</key>
+		<dict>
+			<key>filename</key>
+			<string>images/idleUp%02d.png</string>
+			<key>size</key>
+			<string>4</string>
+			<key>delay</key>
+			<string>0.2</string>
 		</dict>
 		<key>run</key>
 		<dict>
 			<key>filename</key>
-			<string>anim%02d.png</string>
+			<string>images/run%02d.png</string>
 			<key>size</key>
-			<string>2</string>
+			<string>4</string>
 			<key>delay</key>
-			<string>0.21</string>
+			<string>0.2</string>
+		</dict>
+		<key>runDown</key>
+		<dict>
+			<key>filename</key>
+			<string>images/runDown%02d.png</string>
+			<key>size</key>
+			<string>4</string>
+			<key>delay</key>
+			<string>0.2</string>
+		</dict>
+		<key>runUp</key>
+		<dict>
+			<key>filename</key>
+			<string>images/runUp%02d.png</string>
+			<key>size</key>
+			<string>4</string>
+			<key>delay</key>
+			<string>0.2</string>
 		</dict>
 	</dict>
 </dict>

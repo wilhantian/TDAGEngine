@@ -15,6 +15,7 @@ GameWorld::GameWorld()
 
 void GameWorld::init()
 {
+    Input::init(1);
     __world = new b2World(b2Vec2(0.0f, 0.0f));
     
     systems.add<RenderSystem>();

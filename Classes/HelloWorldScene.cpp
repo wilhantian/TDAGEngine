@@ -36,6 +36,7 @@ bool HelloWorld::init()
         e.assign<PositionComponent>(Vec2(100, 100));
         e.assign<MoveComponent>();
         e.assign<PhysicsComponent>(body);
+        e.assign<InputComponent>(0);
         
         auto move = e.component<MoveComponent>();
         move->velocity.set(3, 3);
@@ -56,6 +57,11 @@ bool HelloWorld::init()
         
         auto move = e.component<MoveComponent>();
         move->velocity.set(3, 3);
+        
+        auto render = e.component<RenderComponent>();
+        render->animation = "run";
+        render->repeat = -1;
+        render->sprite->setFlipX(false);
     }
     
     scheduleUpdate();

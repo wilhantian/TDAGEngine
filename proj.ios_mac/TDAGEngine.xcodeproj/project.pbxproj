@@ -15,10 +15,6 @@
 		294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D0D631D0D56D500F7F5D4 /* CoreText.framework */; };
 		3EACC98F19EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		3EACC99019EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
-		46880B7B19C43A67006E1F66 /* anim01.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* anim01.png */; };
-		46880B7C19C43A67006E1F66 /* anim01.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* anim01.png */; };
-		46880B7D19C43A67006E1F66 /* anim00.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7719C43A67006E1F66 /* anim00.png */; };
-		46880B7E19C43A67006E1F66 /* anim00.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7719C43A67006E1F66 /* anim00.png */; };
 		46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7A19C43A67006E1F66 /* HelloWorld.png */; };
 		46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7A19C43A67006E1F66 /* HelloWorld.png */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
@@ -91,6 +87,10 @@
 		A2CC8844202AC96A00E006BE /* MoveSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2CC8841202AC96A00E006BE /* MoveSystem.cpp */; };
 		A2CC8847202ADB0800E006BE /* PhysicsSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2CC8845202ADB0800E006BE /* PhysicsSystem.cpp */; };
 		A2CC8848202ADB0800E006BE /* PhysicsSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2CC8845202ADB0800E006BE /* PhysicsSystem.cpp */; };
+		A2CC884B202D2EFE00E006BE /* images in Resources */ = {isa = PBXBuildFile; fileRef = A2CC884A202D2EFE00E006BE /* images */; };
+		A2CC884C202D2EFE00E006BE /* images in Resources */ = {isa = PBXBuildFile; fileRef = A2CC884A202D2EFE00E006BE /* images */; };
+		A2E82421202D8A6300CE2B8C /* MeleeSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2E8241F202D8A6300CE2B8C /* MeleeSystem.cpp */; };
+		A2E82422202D8A6300CE2B8C /* MeleeSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2E8241F202D8A6300CE2B8C /* MeleeSystem.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -149,8 +149,6 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
-		46880B7619C43A67006E1F66 /* anim01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anim01.png; sourceTree = "<group>"; };
-		46880B7719C43A67006E1F66 /* anim00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anim00.png; sourceTree = "<group>"; };
 		46880B7A19C43A67006E1F66 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -230,6 +228,9 @@
 		A2CC8842202AC96A00E006BE /* MoveSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveSystem.h; path = systems/MoveSystem.h; sourceTree = "<group>"; };
 		A2CC8845202ADB0800E006BE /* PhysicsSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PhysicsSystem.cpp; path = systems/PhysicsSystem.cpp; sourceTree = "<group>"; };
 		A2CC8846202ADB0800E006BE /* PhysicsSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhysicsSystem.h; path = systems/PhysicsSystem.h; sourceTree = "<group>"; };
+		A2CC884A202D2EFE00E006BE /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		A2E8241F202D8A6300CE2B8C /* MeleeSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MeleeSystem.cpp; path = systems/MeleeSystem.cpp; sourceTree = "<group>"; };
+		A2E82420202D8A6300CE2B8C /* MeleeSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeleeSystem.h; path = systems/MeleeSystem.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -363,10 +364,9 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A2CC884A202D2EFE00E006BE /* images */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
-				46880B7619C43A67006E1F66 /* anim01.png */,
-				46880B7719C43A67006E1F66 /* anim00.png */,
 				46880B7A19C43A67006E1F66 /* HelloWorld.png */,
 				A2CC883A202AA64300E006BE /* test.plist */,
 			);
@@ -512,6 +512,8 @@
 				A2CC8842202AC96A00E006BE /* MoveSystem.h */,
 				A2CC8845202ADB0800E006BE /* PhysicsSystem.cpp */,
 				A2CC8846202ADB0800E006BE /* PhysicsSystem.h */,
+				A2E8241F202D8A6300CE2B8C /* MeleeSystem.cpp */,
+				A2E82420202D8A6300CE2B8C /* MeleeSystem.h */,
 			);
 			name = systems;
 			sourceTree = "<group>";
@@ -633,10 +635,10 @@
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */,
-				46880B7D19C43A67006E1F66 /* anim00.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
+				A2CC884B202D2EFE00E006BE /* images in Resources */,
 				521A8EA919F11F5000D177D7 /* fonts in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				A2CC883B202AA64300E006BE /* test.plist in Resources */,
@@ -649,7 +651,6 @@
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
-				46880B7B19C43A67006E1F66 /* anim01.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -662,8 +663,7 @@
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
-				46880B7C19C43A67006E1F66 /* anim01.png in Resources */,
-				46880B7E19C43A67006E1F66 /* anim00.png in Resources */,
+				A2CC884C202D2EFE00E006BE /* images in Resources */,
 				A2CC883C202AA64300E006BE /* test.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -684,6 +684,7 @@
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				A2CC88382029420700E006BE /* components.cpp in Sources */,
 				A2CC882420293F4F00E006BE /* Input.cpp in Sources */,
+				A2E82421202D8A6300CE2B8C /* MeleeSystem.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				A2CC883020293FBD00E006BE /* constants.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
@@ -716,6 +717,7 @@
 				A2CC8844202AC96A00E006BE /* MoveSystem.cpp in Sources */,
 				A2CC88352029416A00E006BE /* RenderSystem.cpp in Sources */,
 				A2CC881420293EE700E006BE /* Entity.cc in Sources */,
+				A2E82422202D8A6300CE2B8C /* MeleeSystem.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				A2CC883120293FBD00E006BE /* constants.cpp in Sources */,
 			);

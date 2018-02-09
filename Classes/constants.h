@@ -14,16 +14,21 @@
 
 #define PTM_RATIO 32.0f
 
-enum class Direction
+enum Direction
 {
-    Up,
-    Right,
-    Down,
-    Left
+    kDirNone = -1,//None
+    
+    kDirU  = 0,
+    kDirD,
+    kDirL,
+    kDirR,
+    kDirRU,
+    kDirRD,
+    kDirLD,
+    kDirLU
 };
 
-cocos2d::Vec2 directionToVec2(Direction dir);
-
+cocos2d::Vec2 dirToVec2(int dir);
 
 b2Vec2 toBox2DVec2(float x, float y);
 b2Vec2 toBox2DVec2(cocos2d::Vec2 pos);
